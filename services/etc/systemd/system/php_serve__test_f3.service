@@ -1,0 +1,9 @@
+ [Unit]
+ Description=PHP Serve: [ project: test_f3 ] [ at: http://localhost:4000 ].
+
+ [Service]
+ Type=simple
+ ExecStart=/usr/bin/bash /usr/bin/devop_background_services/php_serve__test_f3.sh
+
+ [Install]
+ WantedBy=multi-user.target
