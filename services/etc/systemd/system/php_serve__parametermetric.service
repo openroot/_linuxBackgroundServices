@@ -1,0 +1,9 @@
+ [Unit]
+ Description=PHP Serve: [ project: parametermetric ] [ at: http://localhost:2002 ].
+
+ [Service]
+ Type=simple
+ ExecStart=/usr/bin/bash /usr/bin/devop_background_services/php_serve__parametermetric.sh
+
+ [Install]
+ WantedBy=multi-user.target
