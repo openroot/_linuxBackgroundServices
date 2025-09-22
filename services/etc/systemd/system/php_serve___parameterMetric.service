@@ -1,0 +1,9 @@
+ [Unit]
+ Description=PHP Serve: [ project: _parameterMetric ] [ at: http://localhost:8002 ].
+
+ [Service]
+ Type=simple
+ ExecStart=/usr/bin/bash /usr/bin/_linuxBackgroundServices/php_serve___parameterMetric.sh
+
+ [Install]
+ WantedBy=multi-user.target
